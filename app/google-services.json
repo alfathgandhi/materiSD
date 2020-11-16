@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1051998810375",
+    "firebase_url": "https://materisd-d8b5f.firebaseio.com",
+    "project_id": "materisd-d8b5f",
+    "storage_bucket": "materisd-d8b5f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1051998810375:android:9da2d9c8ebec0b9dcd55a2",
+        "android_client_info": {
+          "package_name": "com.d3ifcool.materisd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1051998810375-l8tbftejgdvrtnd9skvcra94s9ji6bro.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.d3ifcool.materisd",
+            "certificate_hash": "7e299eb193b2495c24e7e34d9750a8441e9f5915"
+          }
+        },
+        {
+          "client_id": "1051998810375-83ka8msuc19otcsm97jjv5r4vtr5gkh0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWP442boJN3r-Spm_dWfl_X77l_wMu0kI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1051998810375-83ka8msuc19otcsm97jjv5r4vtr5gkh0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

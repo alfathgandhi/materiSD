@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.d3ifcool.materisd">
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MateriSD">
+
+
+        <activity android:name="com.d3ifcool.materisd.LoginActivity"
+           
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name="com.d3ifcool.materisd.RegisterActivity"
+            android:label="Sign Up"
+            android:screenOrientation="locked">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.d3ifcool.materisd.LoginActivity" />
+        </activity>
+
+        <activity
+            android:name="com.d3ifcool.materisd.MainActivity"
+            android:label="Baca Materi"
+            android:screenOrientation="locked">
+
+        </activity>
+
+        <activity
+            android:name="com.d3ifcool.materisd.ListMateri"
+            android:label="Materi"
+            android:screenOrientation="locked">
+
+        </activity>
+        <activity
+            android:name="com.d3ifcool.materisd.ListKelas"
+            android:label="Kelas"
+            android:screenOrientation="locked">
+
+        </activity>
+        <activity
+            android:name="com.d3ifcool.materisd.QuizActivity"
+            android:label="Soal"
+            android:screenOrientation="locked">
+
+        </activity>
+    </application>
+
+</manifest>
